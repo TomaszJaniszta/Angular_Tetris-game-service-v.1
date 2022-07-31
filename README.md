@@ -1,4 +1,4 @@
-# Angular
+# Angular_Tetris-game-service-v.1
 2 versions of the application.
 Aplication is simulation of service with tetris game with different functionalities.
 # Version 1. 
