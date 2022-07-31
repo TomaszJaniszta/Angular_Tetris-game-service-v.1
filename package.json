@@ -36,5 +36,18 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.4.3"
-  }
+  },
+  "description": "2 versions of the application.\r Aplication is simulation of service with tetris game with different functionalities.\r # Version 1. \r \tI. Intro page with intro text and player form\r \t\t* Form with two inputs: player name, player email (validation)\r   \t\t* Start game button - upon clicking 'start' checking name and email, and notify player, if name and email are fine then store this data and moving to the game page\r \tII. Game page\r \t\t* personalized welcome message (with player name)\r \t\t* 'exit game' button which move player to intro page\r \t\t* integrated ngx-tetris game\r \t\t* indication of the game status (ready, started, paused...)\r \t\t* points counting mechanism (each cleared line counts)\r \t\t* displaying current amount of points\r \t\t* displaying time spent wile playing\r \t\t* 'gameplay history' with all actions\r \t\t\t- timestamp\r \t\t\t- action name (player started the game, paused, line cleared...)\r \t\t\t- filterable by event type (ie. show only 'line cleared' events)\r \t\t\t- sortable by timestamp (latest first or oldest first)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszJaniszta/Angular_Tetris-game-service-v.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaszJaniszta/Angular_Tetris-game-service-v.1/issues"
+  },
+  "homepage": "https://github.com/TomaszJaniszta/Angular_Tetris-game-service-v.1#readme"
 }
